@@ -1,10 +1,8 @@
 <%-- 
     Document   : admin
-    Created on : 5-Aug-2015, 12:59:14 PM
-    Author     : Gaurav shrivastava
+    Created on : 3-Aug-2015, 9:28:27 PM
+    Author     : hanpreet
 --%>
-
-<%@page import="Demo.Regadmin"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*" import="Demo.Regadmin" %>
 <%@page import="Demo.RegFeed" %>
@@ -162,7 +160,7 @@ if (x==null || x=="")
     <body >
         <div class="background">
 		<div class="page">
-			<a href="home.jsp" id="logo">Gaytri Shakti Peeth</a>
+			<a href="home.jsp" id="logo">e-Health Care</a>
 			</div>	
 				</div>
   <ul id="menu">
@@ -170,25 +168,24 @@ if (x==null || x=="")
     <li>
         <a href="video.jsp">Services</a>
         <ul>
-            <li><a href="Consult.jsp">Consult help desk</a></li>
+            <li><a href="Consult.jsp">Consult a Doctor</a></li>
             <li><a href="video.jsp">Video Consult</a></li>
-            
+            <li><a href="pdf.jsp">PDF Consult</a></li>
            
         </ul>
-   
-   </li>
-    <li><a href="teacher.jsp">Teachers</a></li>
+    </li>
+    <li><a href="doctor.jsp">Doctors</a></li>
     <li>
     <a href="#">Specialties</a>
         <ul>
-            <li><a href="cardiology.jsp">Sports</a></li>
-            <li><a href="dentistry.jsp">Science</a></li>
-            <li><a href="bcancer.jsp">Art</a></li>
-            <li><a href="painmgt.jsp">Bio</a></li>
+            <li><a href="cardiology.jsp">Cardiology Treatment</a></li>
+            <li><a href="dentistry">Dentistry Treatment</a></li>
+            <li><a href="bcancer.jsp">Cancer Treatment</a></li>
+            <li><a href="pain.jsp">Pain Management</a></li>
         </ul>
     </li>
     <li><a href="about.jsp">About</a></li>
-    <li><a href="info.jsp">Achievements</a></li>
+    <li><a href="info.jsp">Info Bank</a></li>
     <li><a href="contact.jsp">Contact</a></li>
 </ul>
     <% 
@@ -210,8 +207,8 @@ if (x==null || x=="")
   <div id="tabContainer">
   <div class="tabs">
       <ul>
-        <li id="tabHeader_1">School</li>
-        <li id="tabHeader_2">Teacher</li>
+        <li id="tabHeader_1">Hospital</li>
+        <li id="tabHeader_2">Doctor</li>
        
       </ul>
       
@@ -224,7 +221,7 @@ if (x==null || x=="")
                   <form name="f1" method="post" onsubmit="return validateForm();">
                 <tr>
                      <td>
-                         School Name:
+                         Hospital Name:
                      </td>
                      <td></td>
                      <td></td>
@@ -246,7 +243,7 @@ if (x==null || x=="")
                      <td>
                          City:
                      </td>
-                     <td></td> 
+                     <td></td>
                      <td></td>
                      <td>
                         <input type="text" name="city">
@@ -326,7 +323,7 @@ if (x==null || x=="")
                        <form name="doc" method="POST" onsubmit="return validateForm1();">
                 <tr>
                      <td>
-                         Teacher Name:
+                         Doctor Name:
                      </td>
                      <td>
                         <input type="text" name="dname">
@@ -353,9 +350,9 @@ if (x==null || x=="")
                      <td>
                         <select name='qual' >  
                          <option value='-1'>Select</option>
-                         <option name='mbbs'>PHD</option>
-                         <option name='md'>BE</option>
-                         <option name='bds'>MBA</option>
+                         <option name='mbbs'>MBBS</option>
+                         <option name='md'>MD</option>
+                         <option name='bds'>BDS</option>
                          </select>  
                      </td>
                  </tr>
@@ -367,7 +364,7 @@ if (x==null || x=="")
       <option value="none">Select</option>  
     <%
  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
- Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=school;","sa","gaurav$1603");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
  Statement stmt = con.createStatement();   
  ResultSet rs = stmt.executeQuery("Select * from speciality");
  while(rs.next()){
@@ -416,14 +413,14 @@ if (x==null || x=="")
                  </tr>
                    <tr>
                      <td>
-                         School:
+                         Hospital:
                      </td>
                      <td>
                          <select name="hospital">  
       <option value="none">Select</option>  
     <%
   
- ResultSet rs1 = stmt.executeQuery("Select hid,hname from School");
+ ResultSet rs1 = stmt.executeQuery("Select hid,hname from hospital");
  while(rs1.next()){
      %>
       <option value="<%=rs1.getString(1)%>"><%=rs1.getString(2)%></option>  

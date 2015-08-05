@@ -28,23 +28,23 @@
     <li>
         <a href="video.jsp">Services</a>
         <ul>
-            <li><a href="Consult.jsp">Consult a Doctor</a></li>
+            <li><a href="Consult.jsp">Consult a Teacher</a></li>
             <li><a href="video.jsp">Video Consult</a></li>
             <li><a href="pdf.jsp">PDF Consult</a></li>
             </ul>
     </li>
-    <li><a href="doctor.jsp">Teachers</a></li>
+    <li><a href="teacher.jsp">Teachers</a></li>
     <li>
     <a href="#">Specialties</a>
         <ul>
-             <li><a href="cardiology.jsp">Art </a></li>
+             <li><a href="cricket.jsp">Art </a></li>
             <li><a href="dentistry">Science</a></li>
             <li><a href="bcancer.jsp">Commerce</a></li>
             <li><a href="pain.jsp">Biology</a></li>
         </ul>
     </li>
     <li><a href="about.jsp">About</a></li>
-    <li><a href="info.jsp">Info Bank</a></li>
+    <li><a href="info.jsp">Achievement</a></li>
     <li><a href="contact.jsp">Contact</a></li>
 </ul>                   
 <div id="wrapper">
@@ -64,7 +64,7 @@
       <div class="tabpage" id="tabpage_1" >
         <h2>Sports Specialist</h2>
         <ul>
-            <li ><a href="cardiology.jsp">Cricket</a></li>
+            <li ><a href="cricket.jsp">Cricket</a></li>
             <li><a href="neurology.jsp">Football</a></li>
             <li><a href="cardiacsurgery.jsp">Kho -Kho</a></li>
             <li><a href="orthropedics.jsp">Kababdee</a></li>

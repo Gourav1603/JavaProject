@@ -41,7 +41,7 @@
 						<a href="login_1.jsp">Login</a>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="contact.jsp">Contact</a>
 					</li>
 				</ul>
                             
@@ -51,9 +51,7 @@
 						<img src="images/man.jpg" alt="">
                                                 <center>
                                                     <ul>
-								<li>
-									<a href="finddoc.jsp">HELP DESK  </a>
-								</li>
+								
 								<li><a href="home.jsp" onclick="myfun();">BOOK AN APPOINTMENT</a></li>
 								<li>
 									<a href="enquiry.jsp">FEEDBACK</a>
@@ -63,23 +61,7 @@
                                                 </center>
 					</div>
 				</div>
-                            <div>
-					<div>
-						<h3>FAQ's</h3>
-						<img src="images/doctors-and-nurse.jpg" alt="">
-						<ul>
-								<li>
-                                                                    <a href="faq.jsp">How to use School's Services</a>
-								</li>
-								<li>
-									<a href="faq.jsp">Why use School's Services </a>
-								</li>
-								<li>
-									<a href="faq.jsp">e-School's Services</a>
-								</li>
-						  </ul>
-					</div>
-				</div>
+                           
                         </div>
 			<div class="body">
 				<div class="home">
@@ -104,7 +86,7 @@
 								<h4>Knowledge Center</h4>
 								
 								<p>
-								A comprehensive library of information about diseases, symptoms, treatments and a trusted resource for Healthcare needs...	
+								A comprehensive library of information about study field, subjects,facilities and a trusted resource for School needs...	
 								</p>
 								<span><a href="info.jsp">Read More</a></span>
 							</div>
@@ -114,14 +96,12 @@
 							<a href="services.html"><img src="images/services.jpg" alt=""></a>
 							<ul>
 								<li>
-                                                                    <a href="Consult.jsp">Consult a Teacher</a>
+                                                                    <a href="Consult.jsp">Facilities</a>
 								</li>
 								<li>
-									<a href="video.jsp">Video Consult</a>
+									<a href="video.jsp">Video Gallery</a>
 								</li>
-								<li>
-									<a href="pdf.jsp">PDF Consult</a>
-								</li>
+								
 							</ul>
 							
 						</div>

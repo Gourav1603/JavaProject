@@ -29,7 +29,7 @@
         <ul>
             <li><a href="Consult.jsp">Consult Help Desk</a></li>
             <li><a href="video.jsp">Video Consult</a></li>
-            <li><a href="pdf.jsp">PDF Consult</a></li>
+           
                     </ul>
     </li>
     <li><a href="teacher.jsp">Teacher</a></li>
@@ -52,8 +52,8 @@
     <div class="tabs">
       <ul>
         <li id="tabHeader_1">User Login</li>
-        <li id="tabHeader_2">Teacher's login</li>
-        <li id="tabHeader_3">Principle Login</li>
+       
+        <li id="tabHeader_3">Principal Login</li>
       </ul>
     </div>
     <div class="tabscontent">
@@ -91,37 +91,7 @@
             </table> </center>
        
       </div>
-      <div class="tabpage" id="tabpage_2">
-        <center>   <h2> Teacher Login</h2> </center>
-       <center>    <table  cellpadding="3" width="40%">
-            <form name="f1" method="post" action="check1.jsp">
-        	
-                    
-                <tr>
-                    <td>
-                        <font size="3" color="black">
-                        Username
-                        </font>
-                    </td>
-                    <td><input type="text" name="uname"/></td>
-                </tr>
-            <tr>
-                <td>
-                    <font size="3" color="black">
-                    Password
-                    </font>
-                </td>
-                <td><input type="password" name="upass"/></td>
-            </tr>
-                <tr>
-                    <td style="text-align:center;" colspan="2">
-                        <input  type="submit" value="Login" name="submit" >
-                    </td>
-                </tr>
-                      		
-            </form>	
-            </table> </center>
-      </div>
+      
       <div class="tabpage" id="tabpage_3">
       <center>   <h2>Principle Login</h2> </center>
                <center>    <table  cellpadding="3" width="40%">
