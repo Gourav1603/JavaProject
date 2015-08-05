@@ -168,6 +168,7 @@
                     <td>
                         <select name='t1'>  
        <option value="none">Select</option>  
+        <!--connection established-->
    <%
  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
  Connection con1 = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=school;","sa","gaurav$1603");  
