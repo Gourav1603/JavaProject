@@ -176,6 +176,7 @@ if (x==null || x=="")
     </li>
     <li><a href="doctor.jsp">Doctors</a></li>
     <li>
+         <!--Specil Feactures-->
     <a href="#">Specialties</a>
         <ul>
             <li><a href="cardiology.jsp">Cardiology Treatment</a></li>
@@ -361,8 +362,12 @@ if (x==null || x=="")
                          Speciality:
                      </td>
                       <td> <select name='Speciality' onchange="showState(this.value)">  
+                              
+                              <!--connection established-->
       <option value="none">Select</option>  
-    <%
+    <!--connection established-->
+   
+   <%
  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
  Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
  Statement stmt = con.createStatement();   
