@@ -46,6 +46,7 @@
     <li><a href="contact.jsp">Contact</a></li>
 </ul>                   
 <div id="wrapper">
+    <!--------Video Addes ----->
     <center><h1>Videos</h1></center>
   <div id="tabContainer">
     <div class="tabs">
@@ -57,7 +58,8 @@
     <div class="tabscontent">
       <div class="tabpage" id="tabpage_1" >
           <center>
-              <b> Infrastructure </b><br>
+
+<!------Convert all video int Mp4 Vile----------->              <b> Infrastructure </b><br>
   <video width="320" height="240" controls>
   <source src="video/map.ogg" type="video/ogg">
   <source src=video/map.mp4 type="video/mp4">
@@ -75,6 +77,7 @@
   </object>
   </video><br><br>
   <b> Library </b><br>
+  <!-----Compressing Size of videos--------->
        <video width="320" height="240" controls>
   <source src="video/library.ogg" type="video/ogg">
   <source src=video/library.mp4 type="video/mp4">
