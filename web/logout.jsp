@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/style1.css" type="text/css">
                
+        <!-----------Simple Logout Page-------->
             
         <title>JSP Page</title>
     </head>
