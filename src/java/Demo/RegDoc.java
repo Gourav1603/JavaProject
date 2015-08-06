@@ -9,8 +9,12 @@ import java.sql.*;
 import Demo.ConnectionProvider.*;
 /**
  *
- * @author welcome
+ * @author Gaurav
  */
+
+
+
+//RegCoc page for connection with database to insert data and updatind data
 public class RegDoc {
     public static void InsertData(propdoc p)
     {
