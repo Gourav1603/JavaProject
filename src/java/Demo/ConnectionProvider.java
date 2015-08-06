@@ -12,6 +12,8 @@ import java.sql.*;
  *
  * @author Gaurav Shrivastava
  */
+
+//database connection
 public class ConnectionProvider {
     public static Connection con=null;
     static
