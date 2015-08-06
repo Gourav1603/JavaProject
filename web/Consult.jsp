@@ -9,12 +9,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!---Css file Add--------->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/newcss.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/style1.css" type="text/css">
         <script>
+          <!-----Validation From--------->
+
 function validateForm()
 {
 var x=document.forms["f1"]["fname"].value;
@@ -137,6 +140,7 @@ if (x==null || x=="")
                     
 <div id="wrapper">
     <h1>Consult Help Desk</h1>
+    <!----------Table Craete-------->
     <center><h2>Register yourself!!!</h2></center>
   <div id="tabContainer">
       <div class="tabscontent">
