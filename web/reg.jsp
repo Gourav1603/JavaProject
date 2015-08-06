@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <!---------registration page complete and inserting data query-------->
         
       <%
             prop p=new prop();
