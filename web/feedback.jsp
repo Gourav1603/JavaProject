@@ -13,6 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <!-------Feedback page ,inserting data into database query------>
         
       <%
             feedbackprop p=new feedbackprop();
