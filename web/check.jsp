@@ -51,7 +51,8 @@
 </ul>
     <div id="wrapper">
       <a href="login_1.jsp"><center><h1>TRY AGAIN</h1></center></a>
-  <div id="tabContainer">
+      <div id="tabContainer"
+           <!--------------DATA pAssed Query------->
     <%
           
           String name="";
