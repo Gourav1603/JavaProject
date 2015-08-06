@@ -3,7 +3,7 @@
     Created on : 5-Aug-2015, 1:32:10 PM
     Author     : Gaurav shrivastava
 --%>
-
+<!---------Database connection with Sql 2005-------->
 <%@page import="java.sql.*"%>
 <%
 String country=request.getParameter("count");  
