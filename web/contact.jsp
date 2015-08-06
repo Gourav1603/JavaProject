@@ -48,6 +48,7 @@
 </ul>
                     
 <div id="wrapper">
+    <!--------Simple Contact page ----->
     <center><h1>Contact Us</h1></center>
   <div id="tabContainer">
    
