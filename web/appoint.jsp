@@ -77,7 +77,7 @@
            
           out.println(fname+" "+lname);
             %> </h1>
-            
+            <!----------Validation Page --------->
   <div id="tabContainer">
      <%
             String dname=request.getParameter("doctor");
