@@ -10,6 +10,9 @@ package Demo;
  *
  * @author Gaurav Shrivastava
  */
+
+
+// Connecting with sql server 2005
 public interface Provider {
     String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";
     String Url="jdbc:sqlserver://localhost:1433;databaseName=school;"; 
