@@ -49,6 +49,8 @@
 </ul>                   
 <div id="wrapper">
     <center><h1>Teacher'S PANEL</h1></center>
+    <!----------List of specilaijation of teachers--->
+    <!-------Different Areas--------->
   <div id="tabContainer">
     <div class="tabs">
       <ul>
